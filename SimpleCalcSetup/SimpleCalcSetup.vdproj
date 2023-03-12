@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_024924B40EA24F4C8E82654A612C2548"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_FE4813CC1FD14D469E11DD869CFBAF6A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -43,6 +49,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -90,6 +112,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_024924B40EA24F4C8E82654A612C2548"
+            {
+            "SourcePath" = "8:C:\\Users\\tanay\\Downloads\\Hamzasaleem-Stock-Style-3-Calculator.ico"
+            "TargetName" = "8:Hamzasaleem-Stock-Style-3-Calculator.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_DAC86CC8EA004C4588C199915F657D8A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FE4813CC1FD14D469E11DD869CFBAF6A"
             {
             "SourcePath" = "8:C:\\Users\\Tanay K\\Downloads\\Hamzasaleem-Stock-Style-3-Calculator.ico"
@@ -287,6 +329,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0F439242BA3C49669C24C2DFACC3B43C"
+            {
+            "Name" = "8:Simple-Calculator"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_FF48509AF78C48A9BE6792B5673CA82D"
+            "Folder" = "8:_96FE0C1971884392A840F47310045E82"
+            "WorkingFolder" = "8:_DAC86CC8EA004C4588C199915F657D8A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9147FD6C536B4F148B962097545B3688"
             {
             "Name" = "8:Simple Calculator"
